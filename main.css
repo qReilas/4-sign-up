@@ -12,18 +12,23 @@ body {
 }
 .container {
     display: inline-block;
-    width: 600px;
+    width: 800px;
     margin-top: 100px;
     margin-left: calc((100% - 600px) / 2);
-    background-color: aqua;
 
 }
         .left-column {
             display: inline-block;
             width: 40%;
             float: left;
+            height: 440px;
             padding: 40px;
-            background-color: yellow;
+            background-color: #3f36a7;
+            background-image: url(./kalnas.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
         }
        .title {
 
@@ -32,7 +37,7 @@ body {
 
        }
             .link {
-
+                color: #fff;
             }
             .ambersand {
                 
@@ -45,3 +50,56 @@ body {
             padding: 60px;
             background-color: white;
         }
+
+                .close {
+                    display: inline-block;
+                }
+                    .form {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                        .form.row {
+                            display: inline-block;
+                            width: 100%;
+                            margin-bottom: 30px;
+                        }
+                            .form.row:last-of-type {
+                                margin-bottom: 0;
+                             }
+                            
+                        
+                        label {
+                            display: inline-block;
+                            width: 100%;
+                            margin-bottom: 50px;
+                            font-size: 13px;
+                            text-transform: uppercase;
+                        }
+                        input {
+                            display: inline-block;
+                            width: 100%;
+                            border: none;
+                            border-bottom: 1px solid #ccc;
+                            font-size: 12px;
+                        }
+                            .btn {
+                                display: inline-block;
+                                background-color: #3f36a7;
+                                color: #fff;
+                                padding: 10px;
+                                padding-left: 50px;
+                                padding-right: 50px;
+                                line-height: 20px;
+                                font-weight: bold;
+                                border-radius: 20px;
+                            }
+                            .or {
+                                display: inline-block;
+                                line-height: 10px;
+                            }
+                            .blue-link {
+                                display: inline-block;
+                                color: #3f36a7;
+                                text-decoration: none;
+                                line-height: 40px;
+                            }
